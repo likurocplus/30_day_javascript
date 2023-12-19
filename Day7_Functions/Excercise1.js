@@ -28,9 +28,10 @@ perimeterOfRectangle(5,10)
 const volumeOfRectPrism = (length,width,height) => length*width*height
 console.log(volumeOfRectPrism(5,5,5))
 // Area of a circle is calculated as follows: area = π x r x r. Write a function which calculates areaOfCircle
-const areaOfCircle = (function(r) {
-    console.log(3.14*r*r)
-})(5)
+const areaOfCircle = r => {
+    return (3.14 * r * r)
+}
+console.log(areaOfCircle(5))
 // Circumference of a circle is calculated as follows: circumference = 2πr. Write a function which calculates circumOfCircle
 function circumOfCircle(r) {
     let circumference = 2 * 3.14 * r
