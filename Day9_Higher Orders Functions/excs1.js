@@ -66,10 +66,17 @@ let prices = products.filter((item)=>{
 })
 console.log(prices)
 // Use reduce to sum all the numbers in the numbers array.
+let sum = numbers.reduce((sum,number)=> sum + number,0)
 // Use reduce to concatenate all the countries and to produce this sentence: Estonia, Finland, Sweden, Denmark, Norway, and IceLand are north European countries
 // Explain the difference between some and every
 // Use some to check if some names' length greater than seven in names array
+let thanSeven = names.some((country)=>{
+  return country.length >= 7
+})
 // Use every to check if all the countries contain the word land
+let land = countries.every((country)=>{
+  return country.includes('land')
+})
 // Explain the difference between find and findIndex.
 // Use find to find the first country containing only six letters in the countries array
 // Use findIndex to find the position of the first country containing only six letters in the countries array
