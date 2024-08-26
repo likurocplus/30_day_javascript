@@ -13,7 +13,7 @@ console.log(`Dien tich cua tam giac la: ${S}`);
 // Enter side b: 4
 // Enter side c: 3
 // The perimeter of the triangle is 12
-let a = prompt("Nhap a");
+let a = prompt("Nhap abc");
 let b = prompt("Nhap b");
 let c = prompt("Nhap c");
 let chuvi = a + b + c;
